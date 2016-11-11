@@ -1,5 +1,5 @@
 ## Integration of FIDO UAF and OpenID Connect
-This repository consists of an implementation of the FIDO UAF protocol (based on the Ebay implementation which can be found https://github.com/eBay/UAF) and an implementation of a custom authentication module within OpenAM (https://forgerock.org/openam/) that enables the authentication of users with the FIDO UAF protocol.
+This repository consists of an implementation of the FIDO UAF protocol (inspired from  the Ebay implementation which can be found https://github.com/eBay/UAF) and an implementation of a custom authentication module within OpenAM (https://forgerock.org/openam/) that enables the authentication of users with the FIDO UAF protocol.
 
 ### Installation
 **Prerequisities**
