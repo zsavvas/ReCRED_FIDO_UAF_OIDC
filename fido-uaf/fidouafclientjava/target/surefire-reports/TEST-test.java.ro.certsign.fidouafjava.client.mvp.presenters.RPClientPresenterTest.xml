@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="2" name="test.java.ro.certsign.fidouafjava.client.mvp.presenters.RPClientPresenterTest" time="0.21" errors="0" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:/Projs/fidouafclientjava"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Projs\fidouafclientjava"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SORIN~1.TEI\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:/Programs/apache-maven-3.3.9-bin/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\sorin.teican\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\sorin.teican\bin;C:\ProgramData\Oracle\Java\javapath;D:\Programs\Java\jdk1.8.0_91\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\DMIX;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\Program Files\Common Files\Lenovo;C:\Program Files (x86)\Windows Live\Shared;C:\SWTOOLS\ReadyApps;C:\Program Files (x86)\Intel\Services\IPT;D:\Programs\Git\cmd;D:\Programs\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\Users\sorin.teican\Downloads\gradle-2.14.1-all\gradle-2.14.1\bin;C:\Program Files (x86)\PuTTY;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\sorin.teican"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="sorin.teican"/>
+    <property name="java.class.path" value="D:/Programs/apache-maven-3.3.9-bin/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Programs\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="test.java.ro.certsign.fidouafjava.client.mvp.presenters.RPClientPresenterTest" name="testDereg" time="0.041">
+    <skipped/>
+  </testcase>
+  <testcase classname="test.java.ro.certsign.fidouafjava.client.mvp.presenters.RPClientPresenterTest" name="testAuthentication" time="0.107">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at test.java.ro.certsign.fidouafjava.client.mvp.presenters.RPClientPresenterTest.testAuthentication(RPClientPresenterTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Endpoints loaded!
+</system-out>
+    <system-err>Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Reg register
+INFO:   [UAF][1]Reg  
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Reg register
+INFO:   [UAF][2]Reg - KeyPair generatedjava.security.KeyPair@5fdba6f9
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Reg getRegistrationRequest
+INFO:   [UAF][3]Reg - getRegRequest  : [{&quot;header&quot;:{&quot;op&quot;:&quot;Reg&quot;,&quot;appID&quot;:&quot;http://172.16.101.174:8080/fidouaf-ci/v1/public/uaf/facets&quot;,&quot;upv&quot;:{&quot;major&quot;:1,&quot;minor&quot;:0},&quot;serverData&quot;:&quot;c1FmSjg4R3hJWjRmNWpTVzUtZ1VhZ3ItWkVyWFpBVUVLQUVSVENTZk91SS5NVFEzTkRZeE1UUXpNRE16T0EuYzI5eWFXNC5Ta1JLYUVwRVJYZEtTRkkxWkZSV2JHSldRakZqVjBsM1dqSm9SR1Z1YkROUmFscFRUbXM0&quot;},&quot;challenge&quot;:&quot;JDJhJDEwJHR5dTVlbVB1cWIwZ2hDenl3QjZSNk8&quot;,&quot;username&quot;:&quot;sorin&quot;,&quot;policy&quot;:{&quot;accepted&quot;:[[{&quot;aaid&quot;:[&quot;EBA0#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0015#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0012#0002&quot;]}],[{&quot;aaid&quot;:[&quot;0010#0001&quot;]}],[{&quot;aaid&quot;:[&quot;4e4e#0001&quot;]}],[{&quot;aaid&quot;:[&quot;5143#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0011#0701&quot;]}],[{&quot;aaid&quot;:[&quot;0013#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0014#0000&quot;]}],[{&quot;aaid&quot;:[&quot;0014#0001&quot;]}],[{&quot;aaid&quot;:[&quot;53EC#C002&quot;]}],[{&quot;aaid&quot;:[&quot;DAB8#8001&quot;]}],[{&quot;aaid&quot;:[&quot;DAB8#0011&quot;]}],[{&quot;aaid&quot;:[&quot;DAB8#8011&quot;]}],[{&quot;aaid&quot;:[&quot;5143#0111&quot;]}],[{&quot;aaid&quot;:[&quot;5143#0120&quot;]}],[{&quot;aaid&quot;:[&quot;4746#F816&quot;]}],[{&quot;aaid&quot;:[&quot;53EC#3801&quot;]}]]}}]
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.RegAssertionBuilder getSignature
+INFO:  : dataForSigning : Az7aAAsuCQBFQkEwIzAwMDEOLgcAAAABAQAAAQouIABNUmiyOVYqtYzFzIzxXFSnkJZNW1oEb7vi
+-bohH6H6-wkuSQBaV0poZVMxMFpYTjBMV3RsZVMxS1JFcG9Ta1JGZDBwSGR6Sk5hekZaVTFoRmVt
+SXhjSFpTTW5SWVlsVTFhbFJXYUZWT1dGVTkKDS4IAAAAAQAAAAEADC5BAAQD0yu4W_JYSkStcEmI
+dUG8lwPzkoEaJpWR0XKDum-d8cCELmZ8FJZ4G1jnbpP_tAUiStgE0-IHpbqXbXU-a4IG
+
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.RegAssertionBuilder getSignature
+INFO:  : signature : vemXoWld9biKv_qlSfuXyM0CIDmeIMA85meFvrmFZeVXwdaVabmH6y-l7fiGPAdSXcCfBY50709l
+u-MczJBJOg==
+
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.RegAssertionBuilder getAssertions
+INFO:  : assertion : AT4nAwM-2gALLgkARUJBMCMwMDAxDi4HAAAAAQEAAAEKLiAATVJosjlWKrWMxcyM8VxUp5CWTVta
+BG-74vm6IR-h-vsJLkkAWldKaGVTMTBaWE4wTFd0bGVTMUtSRXBvU2tSRmQwcEhkekpOYXpGWlUx
+aEZlbUl4Y0haU01uUllZbFUxYWxSV2FGVk9XRlU5Cg0uCAAAAAEAAAABAAwuQQAEA9MruFvyWEpE
+rXBJiHVBvJcD85KBGiaVkdFyg7pvnfHAhC5mfBSWeBtY526T_7QFIkrYBNPiB6W6l211PmuCBgc-
+RQIGLkAAvemXoWld9biKv_qlSfuXyM0CIDmeIMA85meFvrmFZeVXwdaVabmH6y-l7fiGPAdSXcCf
+BY50709lu-MczJBJOgUu_QEwggH5MIIBn6ADAgECAgRVMUzTMAkGByqGSM49BAEwgYQxCzAJBgNV
+BAYTAlVTMQswCQYDVQQIDAJDQTERMA8GA1UEBwwIU2FuIEpvc2UxEzARBgNVBAoMCmVCYXksIElu
+Yy4xDDAKBgNVBAsMA1ROUzESMBAGA1UEAwwJZUJheSwgSW5jMR4wHAYJKoZIhvcNAQkBFg9ucGVz
+aWNAZWJheS5jb20wHhcNMTUwNDE3MTgxMTMxWhcNMTUwNDI3MTgxMTMxWjCBhDELMAkGA1UEBhMC
+VVMxCzAJBgNVBAgMAkNBMREwDwYDVQQHDAhTYW4gSm9zZTETMBEGA1UECgwKZUJheSwgSW5jLjEM
+MAoGA1UECwwDVE5TMRIwEAYDVQQDDAllQmF5LCBJbmMxHjAcBgkqhkiG9w0BCQEWD25wZXNpY0Bl
+YmF5LmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDyHDmUdNRe9ndLNj1quBs44EPamfnMA
+ziZtKHBDIIvltGyRMvcdU9Y9DGphUz7ekm0kgtio5awgx3lFv-HwP4QwCQYHKoZIzj0EAQNJADBG
+AiEAimSin8vd862bv1DaUqsrF5r4py8DWDqqTNqPjZUPaGACIQCu0-lMQAMhbPbKuXlcZ8lVx9wW
+a-kwC4wq-4TUnveOng==
+
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Reg register
+INFO:   [UAF][4]Reg - Reg Response Formed  
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Reg register
+INFO: AT4nAwM-2gALLgkARUJBMCMwMDAxDi4HAAAAAQEAAAEKLiAATVJosjlWKrWMxcyM8VxUp5CWTVta
+BG-74vm6IR-h-vsJLkkAWldKaGVTMTBaWE4wTFd0bGVTMUtSRXBvU2tSRmQwcEhkekpOYXpGWlUx
+aEZlbUl4Y0haU01uUllZbFUxYWxSV2FGVk9XRlU5Cg0uCAAAAAEAAAABAAwuQQAEA9MruFvyWEpE
+rXBJiHVBvJcD85KBGiaVkdFyg7pvnfHAhC5mfBSWeBtY526T_7QFIkrYBNPiB6W6l211PmuCBgc-
+RQIGLkAAvemXoWld9biKv_qlSfuXyM0CIDmeIMA85meFvrmFZeVXwdaVabmH6y-l7fiGPAdSXcCf
+BY50709lu-MczJBJOgUu_QEwggH5MIIBn6ADAgECAgRVMUzTMAkGByqGSM49BAEwgYQxCzAJBgNV
+BAYTAlVTMQswCQYDVQQIDAJDQTERMA8GA1UEBwwIU2FuIEpvc2UxEzARBgNVBAoMCmVCYXksIElu
+Yy4xDDAKBgNVBAsMA1ROUzESMBAGA1UEAwwJZUJheSwgSW5jMR4wHAYJKoZIhvcNAQkBFg9ucGVz
+aWNAZWJheS5jb20wHhcNMTUwNDE3MTgxMTMxWhcNMTUwNDI3MTgxMTMxWjCBhDELMAkGA1UEBhMC
+VVMxCzAJBgNVBAgMAkNBMREwDwYDVQQHDAhTYW4gSm9zZTETMBEGA1UECgwKZUJheSwgSW5jLjEM
+MAoGA1UECwwDVE5TMRIwEAYDVQQDDAllQmF5LCBJbmMxHjAcBgkqhkiG9w0BCQEWD25wZXNpY0Bl
+YmF5LmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDyHDmUdNRe9ndLNj1quBs44EPamfnMA
+ziZtKHBDIIvltGyRMvcdU9Y9DGphUz7ekm0kgtio5awgx3lFv-HwP4QwCQYHKoZIzj0EAQNJADBG
+AiEAimSin8vd862bv1DaUqsrF5r4py8DWDqqTNqPjZUPaGACIQCu0-lMQAMhbPbKuXlcZ8lVx9wW
+a-kwC4wq-4TUnveOng==
+
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Reg register
+INFO:   [UAF][6]Reg - done  
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Reg register
+INFO:   [UAF][7]Reg - keys stored  
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Auth auth
+INFO:   [UAF][1]Auth  
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Auth auth
+INFO:   [UAF][2]Auth - priv key retrieved
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Auth getAuthRequest
+INFO:   [UAF][3]Reg - getAuthRequest  : [{&quot;header&quot;:{&quot;op&quot;:&quot;Auth&quot;,&quot;appID&quot;:&quot;http://172.16.101.174:8080/fidouaf-ci/v1/public/uaf/facets&quot;,&quot;upv&quot;:{&quot;major&quot;:1,&quot;minor&quot;:0},&quot;serverData&quot;:&quot;bHdMdEFIZHlwWlhzVFFvYVBfVHJtX1g4SXRqc1VZdUJQNGhTcl9PbUtERS5NVFEzTkRZeE1UUXpNRGMwTWcuU2tSS2FFcEVSWGRLUkd4RFZGaHNiR0ZHVG14WFdHeHZZekJTTTJWRVdqUk9WR2d5VkVkVg&quot;},&quot;challenge&quot;:&quot;JDJhJDEwJDlCTXllaFNlWXloc0R3eDZ4NTh2TGU&quot;,&quot;policy&quot;:{&quot;accepted&quot;:[[{&quot;aaid&quot;:[&quot;EBA0#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0015#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0012#0002&quot;]}],[{&quot;aaid&quot;:[&quot;0010#0001&quot;]}],[{&quot;aaid&quot;:[&quot;4e4e#0001&quot;]}],[{&quot;aaid&quot;:[&quot;5143#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0011#0701&quot;]}],[{&quot;aaid&quot;:[&quot;0013#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0014#0000&quot;]}],[{&quot;aaid&quot;:[&quot;0014#0001&quot;]}],[{&quot;aaid&quot;:[&quot;53EC#C002&quot;]}],[{&quot;aaid&quot;:[&quot;DAB8#8001&quot;]}],[{&quot;aaid&quot;:[&quot;DAB8#0011&quot;]}],[{&quot;aaid&quot;:[&quot;DAB8#8011&quot;]}],[{&quot;aaid&quot;:[&quot;5143#0111&quot;]}],[{&quot;aaid&quot;:[&quot;5143#0120&quot;]}],[{&quot;aaid&quot;:[&quot;4746#F816&quot;]}],[{&quot;aaid&quot;:[&quot;53EC#3801&quot;]}]]}}]
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.AuthAssertionBuilder getSignature
+INFO:  : dataForSigning : [B@76a4d6c
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.AuthAssertionBuilder getSignature
+INFO:  : signature : [B@517cd4b
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.AuthAssertionBuilder getAssertions
+INFO:  : assertion : Aj4fAQQ+1wALLgkARUJBMCMwMDAxDi4FAAAAAQEADy5AADFjMTQxZWYyNTdiZGFjYmE2NDE5NGIx
+OGIxNjFkMjlhNGFjMmQ4YWM3Yzg1YTE3NTAyODRiODMzMjA3ZDg0ZmMKLiAAc3CechuZjUP0YT60
+Dv/B8v0rcuTInI7z0rUSHwyHuJEQLgAACS5JAFpXSmhlUzEwWlhOMExXdGxlUzFLUkVwb1NrUkZk
+MHBET0haaVdIQnVUVEpzTWxKSVl6QlNNVUkyV1RCS1dWcFlWa1JPZVRROQoNLgQAAAABAAYuQAA8
+gb/ygLF9ybA/7h84zWIYVVyJqb2dqI9XWGMpl3XBVsneIzIX8VCPEPXiAAII23jJAeiwY6IC1Ah7
+QJ+UCNBm
+
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Auth auth
+INFO:   [UAF][4]Auth - Auth Response Formed  
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Auth auth
+INFO: Aj4fAQQ+1wALLgkARUJBMCMwMDAxDi4FAAAAAQEADy5AADFjMTQxZWYyNTdiZGFjYmE2NDE5NGIx
+OGIxNjFkMjlhNGFjMmQ4YWM3Yzg1YTE3NTAyODRiODMzMjA3ZDg0ZmMKLiAAc3CechuZjUP0YT60
+Dv/B8v0rcuTInI7z0rUSHwyHuJEQLgAACS5JAFpXSmhlUzEwWlhOMExXdGxlUzFLUkVwb1NrUkZk
+MHBET0haaVdIQnVUVEpzTWxKSVl6QlNNVUkyV1RCS1dWcFlWa1JPZVRROQoNLgQAAAABAAYuQAA8
+gb/ygLF9ybA/7h84zWIYVVyJqb2dqI9XWGMpl3XBVsneIzIX8VCPEPXiAAII23jJAeiwY6IC1Ah7
+QJ+UCNBm
+
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Auth auth
+INFO:   [UAF][6]Auth - done  
+Invalid Server response
+org.json.JSONException: JSONObject[&quot;status&quot;] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:721)
+	at ro.certsign.fidouafjava.client.mvp.presenters.RPClientPresenter.authenticate(RPClientPresenter.java:83)
+	at test.java.ro.certsign.fidouafjava.client.mvp.presenters.RPClientPresenterTest.testAuthentication(RPClientPresenterTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="test.java.ro.certsign.fidouafjava.client.mvp.presenters.RPClientPresenterTest" name="testTransaction" time="0.062">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at test.java.ro.certsign.fidouafjava.client.mvp.presenters.RPClientPresenterTest.testTransaction(RPClientPresenterTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-err>Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Reg register
+INFO:   [UAF][1]Reg  
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Reg register
+INFO:   [UAF][2]Reg - KeyPair generatedjava.security.KeyPair@33cb5951
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Reg getRegistrationRequest
+INFO:   [UAF][3]Reg - getRegRequest  : [{&quot;header&quot;:{&quot;op&quot;:&quot;Reg&quot;,&quot;appID&quot;:&quot;http://172.16.101.174:8080/fidouaf-ci/v1/public/uaf/facets&quot;,&quot;upv&quot;:{&quot;major&quot;:1,&quot;minor&quot;:0},&quot;serverData&quot;:&quot;aUFlQmdFcWdfb0w1VVNtZWNkd205STlBcEVSWHM1bnhCcTdXWjdCamRKZy5NVFEzTkRZeE1UUXpNRGd6TVEuYzI5eWFXNC5Ta1JLYUVwRVJYZEtSVnAxWVZoRmVGSXlVbmhUTVd4TFVXNXdiR1ZzVG5SUFZHUlZWRWhW&quot;},&quot;challenge&quot;:&quot;JDJhJDEwJEZuaXExR2RxS1lKQnplelNtOTdUTHU&quot;,&quot;username&quot;:&quot;sorin&quot;,&quot;policy&quot;:{&quot;accepted&quot;:[[{&quot;aaid&quot;:[&quot;EBA0#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0015#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0012#0002&quot;]}],[{&quot;aaid&quot;:[&quot;0010#0001&quot;]}],[{&quot;aaid&quot;:[&quot;4e4e#0001&quot;]}],[{&quot;aaid&quot;:[&quot;5143#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0011#0701&quot;]}],[{&quot;aaid&quot;:[&quot;0013#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0014#0000&quot;]}],[{&quot;aaid&quot;:[&quot;0014#0001&quot;]}],[{&quot;aaid&quot;:[&quot;53EC#C002&quot;]}],[{&quot;aaid&quot;:[&quot;DAB8#8001&quot;]}],[{&quot;aaid&quot;:[&quot;DAB8#0011&quot;]}],[{&quot;aaid&quot;:[&quot;DAB8#8011&quot;]}],[{&quot;aaid&quot;:[&quot;5143#0111&quot;]}],[{&quot;aaid&quot;:[&quot;5143#0120&quot;]}],[{&quot;aaid&quot;:[&quot;4746#F816&quot;]}],[{&quot;aaid&quot;:[&quot;53EC#3801&quot;]}]]}}]
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.RegAssertionBuilder getSignature
+INFO:  : dataForSigning : Az7aAAsuCQBFQkEwIzAwMDEOLgcAAAABAQAAAQouIACGZhOg9GRLEF1HY1XKKT3kBGXo4JlqtavP
+AoxNSMMpMwkuSQBaV0poZVMxMFpYTjBMV3RsZVMxS1JFcG9Ta1JGZDBwRWJHOU5SbVJVWTI1T2RG
+a3paSFJSYTFKclpGVnNVMkZIZHpCUFYxVTkKDS4IAAAAAQAAAAEADC5BAAQfSOCZ6xVwY_CGZmMy
+jJkDyvBeQ0VHClp4-K_1RZdaWLE7IrEBuXOdwzC_a2L9zC1n_zuaVE6EYlOw4jYmtGr6
+
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.RegAssertionBuilder getSignature
+INFO:  : signature : seY4TMaEQAo2yKfZ-tgmM-7dwjXvYlVvZu5gYVNIMXzGftIYbJMSjK9Sj5FAIMveggcY5p_G8tCg
+z5xEP6UbtQ==
+
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.RegAssertionBuilder getAssertions
+INFO:  : assertion : AT4nAwM-2gALLgkARUJBMCMwMDAxDi4HAAAAAQEAAAEKLiAAhmYToPRkSxBdR2NVyik95ARl6OCZ
+arWrzwKMTUjDKTMJLkkAWldKaGVTMTBaWE4wTFd0bGVTMUtSRXBvU2tSRmQwcEViRzlOUm1SVVky
+NU9kRmt6WkhSUmExSnJaRlZzVTJGSGR6QlBWMVU5Cg0uCAAAAAEAAAABAAwuQQAEH0jgmesVcGPw
+hmZjMoyZA8rwXkNFRwpaePiv9UWXWlixOyKxAblzncMwv2ti_cwtZ_87mlROhGJTsOI2JrRq-gc-
+RQIGLkAAseY4TMaEQAo2yKfZ-tgmM-7dwjXvYlVvZu5gYVNIMXzGftIYbJMSjK9Sj5FAIMveggcY
+5p_G8tCgz5xEP6UbtQUu_QEwggH5MIIBn6ADAgECAgRVMUzTMAkGByqGSM49BAEwgYQxCzAJBgNV
+BAYTAlVTMQswCQYDVQQIDAJDQTERMA8GA1UEBwwIU2FuIEpvc2UxEzARBgNVBAoMCmVCYXksIElu
+Yy4xDDAKBgNVBAsMA1ROUzESMBAGA1UEAwwJZUJheSwgSW5jMR4wHAYJKoZIhvcNAQkBFg9ucGVz
+aWNAZWJheS5jb20wHhcNMTUwNDE3MTgxMTMxWhcNMTUwNDI3MTgxMTMxWjCBhDELMAkGA1UEBhMC
+VVMxCzAJBgNVBAgMAkNBMREwDwYDVQQHDAhTYW4gSm9zZTETMBEGA1UECgwKZUJheSwgSW5jLjEM
+MAoGA1UECwwDVE5TMRIwEAYDVQQDDAllQmF5LCBJbmMxHjAcBgkqhkiG9w0BCQEWD25wZXNpY0Bl
+YmF5LmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDyHDmUdNRe9ndLNj1quBs44EPamfnMA
+ziZtKHBDIIvltGyRMvcdU9Y9DGphUz7ekm0kgtio5awgx3lFv-HwP4QwCQYHKoZIzj0EAQNJADBG
+AiEAimSin8vd862bv1DaUqsrF5r4py8DWDqqTNqPjZUPaGACIQCu0-lMQAMhbPbKuXlcZ8lVx9wW
+a-kwC4wq-4TUnveOng==
+
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Reg register
+INFO:   [UAF][4]Reg - Reg Response Formed  
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Reg register
+INFO: AT4nAwM-2gALLgkARUJBMCMwMDAxDi4HAAAAAQEAAAEKLiAAhmYToPRkSxBdR2NVyik95ARl6OCZ
+arWrzwKMTUjDKTMJLkkAWldKaGVTMTBaWE4wTFd0bGVTMUtSRXBvU2tSRmQwcEViRzlOUm1SVVky
+NU9kRmt6WkhSUmExSnJaRlZzVTJGSGR6QlBWMVU5Cg0uCAAAAAEAAAABAAwuQQAEH0jgmesVcGPw
+hmZjMoyZA8rwXkNFRwpaePiv9UWXWlixOyKxAblzncMwv2ti_cwtZ_87mlROhGJTsOI2JrRq-gc-
+RQIGLkAAseY4TMaEQAo2yKfZ-tgmM-7dwjXvYlVvZu5gYVNIMXzGftIYbJMSjK9Sj5FAIMveggcY
+5p_G8tCgz5xEP6UbtQUu_QEwggH5MIIBn6ADAgECAgRVMUzTMAkGByqGSM49BAEwgYQxCzAJBgNV
+BAYTAlVTMQswCQYDVQQIDAJDQTERMA8GA1UEBwwIU2FuIEpvc2UxEzARBgNVBAoMCmVCYXksIElu
+Yy4xDDAKBgNVBAsMA1ROUzESMBAGA1UEAwwJZUJheSwgSW5jMR4wHAYJKoZIhvcNAQkBFg9ucGVz
+aWNAZWJheS5jb20wHhcNMTUwNDE3MTgxMTMxWhcNMTUwNDI3MTgxMTMxWjCBhDELMAkGA1UEBhMC
+VVMxCzAJBgNVBAgMAkNBMREwDwYDVQQHDAhTYW4gSm9zZTETMBEGA1UECgwKZUJheSwgSW5jLjEM
+MAoGA1UECwwDVE5TMRIwEAYDVQQDDAllQmF5LCBJbmMxHjAcBgkqhkiG9w0BCQEWD25wZXNpY0Bl
+YmF5LmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDyHDmUdNRe9ndLNj1quBs44EPamfnMA
+ziZtKHBDIIvltGyRMvcdU9Y9DGphUz7ekm0kgtio5awgx3lFv-HwP4QwCQYHKoZIzj0EAQNJADBG
+AiEAimSin8vd862bv1DaUqsrF5r4py8DWDqqTNqPjZUPaGACIQCu0-lMQAMhbPbKuXlcZ8lVx9wW
+a-kwC4wq-4TUnveOng==
+
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Reg register
+INFO:   [UAF][6]Reg - done  
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Reg register
+INFO:   [UAF][7]Reg - keys stored  
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Auth auth
+INFO:   [UAF][1]Auth  
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Auth auth
+INFO:   [UAF][2]Auth - priv key retrieved
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Auth getAuthRequest
+INFO:   [UAF][3]Reg - getAuthRequest  : [{&quot;header&quot;:{&quot;op&quot;:&quot;Auth&quot;,&quot;appID&quot;:&quot;http://172.16.101.174:8080/fidouaf-ci/v1/public/uaf/facets&quot;,&quot;upv&quot;:{&quot;major&quot;:1,&quot;minor&quot;:0},&quot;serverData&quot;:&quot;VjE4cDFvNHpqSEpPN1NpY1RaakozeGpFU0FNSDBnMWU0Z0xZNW5YWmNBYy5NVFEzTkRZeE1UUXpNRGt6TlEuU2tSS2FFcEVSWGRLU0VwMFdUTmFRazU2UWpOVWFrMTJWVEJHU2xGNldqQlRhMXBXVVZoVg&quot;},&quot;challenge&quot;:&quot;JDJhJDEwJHJtY3ZBNzB3TjMvU0FJQzZ0SkZVQXU&quot;,&quot;transaction&quot;:[{&quot;contentType&quot;:&quot;text/plain&quot;,&quot;content&quot;:&quot;QXV0aGVudGljYXRpb24=\n&quot;}],&quot;policy&quot;:{&quot;accepted&quot;:[[{&quot;aaid&quot;:[&quot;EBA0#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0015#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0012#0002&quot;]}],[{&quot;aaid&quot;:[&quot;0010#0001&quot;]}],[{&quot;aaid&quot;:[&quot;4e4e#0001&quot;]}],[{&quot;aaid&quot;:[&quot;5143#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0011#0701&quot;]}],[{&quot;aaid&quot;:[&quot;0013#0001&quot;]}],[{&quot;aaid&quot;:[&quot;0014#0000&quot;]}],[{&quot;aaid&quot;:[&quot;0014#0001&quot;]}],[{&quot;aaid&quot;:[&quot;53EC#C002&quot;]}],[{&quot;aaid&quot;:[&quot;DAB8#8001&quot;]}],[{&quot;aaid&quot;:[&quot;DAB8#0011&quot;]}],[{&quot;aaid&quot;:[&quot;DAB8#8011&quot;]}],[{&quot;aaid&quot;:[&quot;5143#0111&quot;]}],[{&quot;aaid&quot;:[&quot;5143#0120&quot;]}],[{&quot;aaid&quot;:[&quot;4746#F816&quot;]}],[{&quot;aaid&quot;:[&quot;53EC#3801&quot;]}]]}}]
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.AuthAssertionBuilder getSignature
+INFO:  : dataForSigning : [B@31206beb
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.crypto.KeyCodec getKeyAsRawBytes
+INFO: Raw key length:65
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.AuthAssertionBuilder getSignature
+INFO:  : signature : [B@3e77a1ed
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.AuthAssertionBuilder getAssertions
+INFO:  : assertion : Aj4fAQQ+1wALLgkARUJBMCMwMDAxDi4FAAAAAQEADy5AAGNjYTYxMGI4NGNlODQyNDc5NGEwNzIw
+NzlmYThkYzAwMTc2M2Q5MTRmMWI4ZjEyY2VjMjMwMTljMDhjOWU0NTUKLiAAx3Bck2KqqQ0c0GM3
+UorVrieezvCBqAX1BUwFSZ7YZfAQLgAACS5JAFpXSmhlUzEwWlhOMExXdGxlUzFLUkVwb1NrUkZk
+MHBET0haaVdIQnVUVEpzTWxKSVl6QlNNVUkyV1RCS1dWcFlWa1JPZVRROQoNLgQAAAABAAYuQAAE
+luIrPLkEj/UA5/xPsZ7TbHdKlozdzxRXQWakQ5v+eQJQFN+AjoHzQM1h24ZuHrtrbtr9Epv3SwFO
+aQj7OGvA
+
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Auth auth
+INFO:   [UAF][4]Auth - Auth Response Formed  
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Auth auth
+INFO: Aj4fAQQ+1wALLgkARUJBMCMwMDAxDi4FAAAAAQEADy5AAGNjYTYxMGI4NGNlODQyNDc5NGEwNzIw
+NzlmYThkYzAwMTc2M2Q5MTRmMWI4ZjEyY2VjMjMwMTljMDhjOWU0NTUKLiAAx3Bck2KqqQ0c0GM3
+UorVrieezvCBqAX1BUwFSZ7YZfAQLgAACS5JAFpXSmhlUzEwWlhOMExXdGxlUzFLUkVwb1NrUkZk
+MHBET0haaVdIQnVUVEpzTWxKSVl6QlNNVUkyV1RCS1dWcFlWa1JPZVRROQoNLgQAAAABAAYuQAAE
+luIrPLkEj/UA5/xPsZ7TbHdKlozdzxRXQWakQ5v+eQJQFN+AjoHzQM1h24ZuHrtrbtr9Epv3SwFO
+aQj7OGvA
+
+Sep 23, 2016 9:17:10 AM ro.certsign.fidouafjava.fido.uaf.client.op.Auth auth
+INFO:   [UAF][6]Auth - done  
+Invalid Server response
+org.json.JSONException: JSONObject[&quot;status&quot;] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:721)
+	at ro.certsign.fidouafjava.client.mvp.presenters.RPClientPresenter.transaction(RPClientPresenter.java:113)
+	at test.java.ro.certsign.fidouafjava.client.mvp.presenters.RPClientPresenterTest.testTransaction(RPClientPresenterTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="test.java.ro.certsign.fidouafjava.client.mvp.presenters.RPClientPresenterTest" name="testRegistered" time="0"/>
+</testsuite>

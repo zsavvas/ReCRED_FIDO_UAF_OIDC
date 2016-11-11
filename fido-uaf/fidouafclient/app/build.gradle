@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.github.triplet.play'
+
+android {
+    
+    compileSdkVersion 23
+    buildToolsVersion "24.0.2"
+    defaultConfig {
+        applicationId "eu.recred.fidouaf.client"
+        minSdkVersion 23
+        targetSdkVersion 23
+        versionCode 3
+        versionName "1.2"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def file = output.outputFile
+            output.outputFile = new File(file.parent, file.name.replace(".apk", "-" + defaultConfig.versionName + ".apk"))
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile files('libs/commons-codec-1.10.jar')
+    compile files('libs/sc-light-jdk15on-1.47.0.2.jar')
+    compile files('libs/scprov-jdk15on-1.47.0.3.jar')
+    compile project(':app-debug')
+}

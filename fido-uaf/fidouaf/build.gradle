@@ -1,0 +1,38 @@
+apply plugin: 'war'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	//compile 'javax.ws.rs:javax.ws.rs-api:2.0'
+	compile 'com.sun.jersey:jersey-core:1.8'
+	compile 'com.sun.jersey:jersey-server:1.8'
+	compile 'com.sun.jersey:jersey-json:1.8'
+	compile project(':fido-uaf-core')
+
+	//compile 'javax.ws.rs:jsr311-api:1.1.1'
+	//compile files('/opt/glassfish4/glassfish/modules/javax.ws.rs-api.jar')
+    //compile 'javax:javaee-web-api:7.0'
+	//compile 'com.sun.jersey:jersey-json:1.19.1'
+	//compile 'com.sun.jersey:jersey-core:1.19.1'
+
+	//compile 'javax.ws.rs:javax.ws.rs-api:2.0.1'
+	//compile 'org.glassfish.jersey.core:jersey-server:2.22'
+	//compile 'org.glassfish.jersey.media:jersey-media-json-jackson:2.22.2'
+
+
+
+
+    //runtime 'javax.ws.rs:jsr311-api:1.1.1'
+	//runtime files('/opt/glassfish4/glassfish/modules/javax.ws.rs-api.jar')
+	//runtime 'com.sun.jersey:jersey-server:1.8'
+	//runtime 'com.sun.jersey:jersey-json:1.8'
+	//runtime 'com.sun.jersey:jersey-core:1.19.1'
+
+	testCompile 'junit:junit:4.12'
+}

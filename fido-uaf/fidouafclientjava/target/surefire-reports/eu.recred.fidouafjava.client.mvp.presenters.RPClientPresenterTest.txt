@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: eu.recred.fidouafjava.client.mvp.presenters.RPClientPresenterTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 1.276 sec
